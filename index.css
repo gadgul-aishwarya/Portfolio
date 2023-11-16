@@ -1,0 +1,188 @@
+body
+{
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.navbar
+{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 1;
+}
+.myname
+{
+  font-size: 30px;
+  font-family: Impact;
+  word-spacing: 3px;
+  letter-spacing: 2px;
+  font-weight: bolder;
+  color: #fc5012;
+}
+.maindiv
+{
+  width: 100%;
+  position: absolute;
+  top: 150px;
+  left: 0px;
+  right: 55px;
+  padding-top: 65px;
+}
+/*.dv
+{
+  width: 100%;
+  padding-top: 15px;
+}*/
+.info
+{
+  font-size: 24px;
+  margin-left: 105px;
+  
+  
+  
+}
+.infoname
+{
+ font-size: 28px;
+ font-weight: bolder;
+ color: #fc5012;
+ margin-left: 105px;
+ 
+ 
+ 
+}
+.infosoft
+{
+  font-size: 24px;
+  font-weight: bolder;
+  margin-left: 105px;
+  
+}
+.btn button
+{
+  height: 30px;
+  width: 80px;
+  border: none;
+  background-color: lightsalmon;
+  border-radius: 10px;
+  color: black;
+  font-size: 14px;
+  margin-left: 105px;
+
+}
+.btn button:hover
+{
+  background-color: white;
+  color: black;
+  border:2px solid grey;
+  transform: scale(1.1);
+}
+#home
+{
+  height: 370px;
+  margin-top: 95px;
+/*  background-color: lightgray;*/
+  background-image: url('https://cdn.pnghd.pics/data/14/coding-gif-24.gif');
+  background-repeat: no-repeat;
+  background-size: 27%;
+  background-position: 100%;
+  padding-top: 80px;
+  padding-left: -5px;
+  width: 100%;
+}
+#about
+{
+  height: 450px;
+  margin-top: 275px;
+/*  background-color: lightgray;*/
+   color: black;
+  font-size: 15px;
+  font-weight: bolder;
+  padding-top: 75px;
+  padding-left: -5px;
+  width: 100%;
+}
+#skill
+{
+  height: 390px;
+  margin-top: 40px;
+  padding-top: 70px;
+/*  background-color: lightgray;*/
+}
+#project
+{
+  height: 750px;
+  margin-top: 37px;
+  padding-top: 70px;
+/*  background-color: lightgray;*/
+}
+#contact
+{
+ height: 300px;
+ margin-top: 33px;
+ padding-top: 20px;
+/* background-color: lightgray; */
+}
+html
+{
+  scroll-behavior: smooth;
+}
+/*.home
+{
+  height: 400px;
+  margin-top: 0px;
+  background-color: lightgray;
+  background-size: 40%;
+}*/
+
+.mymenu
+{
+  font-size: 20px;
+  color: black;
+  font-weight: bolder;
+
+}
+.mymenu:hover
+{
+  color: #68e823 ;
+}
+.myimage
+{
+  border-radius: 100px;
+
+}
+.myimage:hover
+{
+  transition-duration: 2s;
+  color: transparent;
+  border-radius: 120px;
+  box-shadow: 3px 3px 3px 15px lightgrey;
+}
+.co
+{
+  text-align: justify;
+  text-indent: 5%;
+  margin-top: -35px;
+
+
+}
+.sectionheading
+{
+  color: orange ;
+  font-weight: 400 ;
+  font-family: elephant;
+  font-size: 50px ;
+  
+}
+th
+{
+  font-family: Britannic Bold;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+li
+{
+  font-size: 20px;
+}
